@@ -7,6 +7,7 @@ Programación de microcontroladores PICs en Ensamblador usando MPLAB x y MPASM, 
 - ASM_002: LED Intermitente
 - ASM_003: Control de display de 7 segmentos
 - ASM_004: Termometro digital con PIC16F84A y DS1624
+- ASM_005: Configurar el oscilador interno del PIC16F887 - Led intermitente
 
 ***
 Puedes seguirme en:
