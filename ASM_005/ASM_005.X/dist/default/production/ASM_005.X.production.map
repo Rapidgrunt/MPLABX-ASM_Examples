@@ -1,0 +1,49 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Fri Mar 15 23:50:08 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000005    program   0x000032
+.config_2007_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000005    0x00001d      
+                            0x002007    0x002008      
+            30 out of 8455 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     Loop   0x00000b    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+                 MCU_Init   0x000005    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+                    RESET   0x000000    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+            Retardo_500ms   0x000010    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+     Retardo_BucleExterno   0x000014    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+    Retardo_BucleExterno2   0x000012    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+     Retardo_BucleInterno   0x000016    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    RESET   0x000000    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+                 MCU_Init   0x000005    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+                     Loop   0x00000b    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+            Retardo_500ms   0x000010    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+    Retardo_BucleExterno2   0x000012    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+     Retardo_BucleExterno   0x000014    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+     Retardo_BucleInterno   0x000016    program     static C:\Users\mrchu_000\Documents\FW\ASM_005.X\main.asm
+
+
