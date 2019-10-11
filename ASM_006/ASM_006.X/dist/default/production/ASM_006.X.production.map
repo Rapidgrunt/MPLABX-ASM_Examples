@@ -1,0 +1,70 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sun Oct 06 23:49:23 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x0000de
+.config_2007_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002008    program   0x000002
+             MisVariables      udata   0x000020       data   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000072      
+                            0x002007    0x002008      
+            116 out of 8455 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 ADC_Init   0x000014    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+                 ADC_Read   0x000024    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+                 MCU_Init   0x000005    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+     Retardo_BucleExterno   0x00006b    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+     Retardo_BucleInterno   0x00006d    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+               Retardo_ms   0x00006a    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED0   0x00002b    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED1   0x000032    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED2   0x000039    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED3   0x000040    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED4   0x000047    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED5   0x00004e    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED6   0x000055    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED7   0x00005c    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED8   0x000063    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+             _.org_1_0028   0x000028    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+                Valor_ADC   0x000020       data     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 MCU_Init   0x000005    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+                 ADC_Init   0x000014    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+                 ADC_Read   0x000024    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+             _.org_1_0028   0x000028    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED0   0x00002b    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED1   0x000032    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED2   0x000039    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED3   0x000040    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED4   0x000047    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED5   0x00004e    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED6   0x000055    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED7   0x00005c    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+              Update_LED8   0x000063    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+               Retardo_ms   0x00006a    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+     Retardo_BucleExterno   0x00006b    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+     Retardo_BucleInterno   0x00006d    program     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+                Valor_ADC   0x000020       data     static C:\Users\mrchu_000\Documents\FW\ASM_006.X\main.asm
+
+

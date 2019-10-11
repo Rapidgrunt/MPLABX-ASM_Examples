@@ -1,0 +1,13 @@
+Warning[205] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 22 : Found directive in column 1. (list)
+Warning[205] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 28 : Found directive in column 1. (__CONFIG)
+Warning[205] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 30 : Found directive in column 1. (__CONFIG)
+Warning[205] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 41 : Found directive in column 1. (ORG)
+Warning[203] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 42 : Found opcode in column 1. (GOTO)
+Warning[205] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 43 : Found directive in column 1. (ORG)
+Warning[203] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 44 : Found opcode in column 1. (RETURN)
+Message[302] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 50 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 53 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 56 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 65 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 68 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[205] C:\USERS\MRCHU_000\DOCUMENTS\FW\ASM_006.X\MAIN.ASM 201 : Found directive in column 1. (end)
